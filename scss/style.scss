@@ -1,0 +1,33 @@
+// Reset
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+// Variables
+$white: #fff;
+$highlight: #7ac483;
+$grey_background: #f2f1f8;
+
+// Global Styles
+.wrapper {
+    width: 11140px;
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+// Banner 
+#banner{
+    background-image: url(../img/banner.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.9;
+
+    header {
+        padding: 2rem 0;
+    }
+    #logo{
+        color: $white;
+    }
+}
