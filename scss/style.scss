@@ -44,6 +44,11 @@ body {
     padding: .3rem 1.5em;
 }
 
+.button_large {
+    padding: 1rem 4rem;
+    font-size: 1.4rem;
+}
+
 .cf::after, .cf::before {
     content: " ";
     display: table;
@@ -192,6 +197,9 @@ body {
         list-style: none;
         padding: 0;
         margin: 2rem 0;
+        a {
+            text-decoration: none;
+        }
         li {
             width: 12px;
             height: 12px;
@@ -249,5 +257,26 @@ body {
                 z-index: 2;
             }
         }
+    }
+}
+
+// Contact
+
+#contact {
+    background: $grey_background;
+    padding: 6rem 0 8rem 0;
+    text-align: center;
+    .title {
+        font-size: 2.5rem;
+        color: $dark_grey;
+        margin: 0;
+    }
+    .sub_title {
+        font-size: 1.5rem;
+        color: $grey_copy;
+        width: 600px;
+        max-width: 100%;
+        display: block;
+        margin: 0 auto 4rem auto;
     }
 }
