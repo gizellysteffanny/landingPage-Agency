@@ -145,6 +145,12 @@ body {
 
         }
     }
+    .middle{
+        &:after{
+            bottom: -105px;
+            height: 105px; 
+        }
+    }
     &:before{
         content: " ";
         position: absolute;
