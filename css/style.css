@@ -5,7 +5,8 @@
   box-sizing: border-box; }
 
 body {
-  font-family: 'Varela Round', sans-serif; }
+  font-family: 'Varela Round', sans-serif;
+  -wekit-font-smoothing: antialiase; }
 
 .wrapper {
   width: 11140px;
@@ -45,7 +46,8 @@ body {
   background-image: url(../img/banner.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center; }
+  background-position: center;
+  position: relative; }
   #banner header {
     padding: 2rem 0; }
   #banner #logo {
@@ -81,6 +83,12 @@ body {
       margin: 3rem 0; }
       #banner .content .button_wrapper .button {
         margin: 0 .75rem; }
+    #banner .content .see_more {
+      width: 28px;
+      position: absolute;
+      left: 50%;
+      margin-left: -10px;
+      bottom: 85px; }
 
 #services {
   background: #f2f1f8;
@@ -214,5 +222,15 @@ body {
     max-width: 100%;
     display: block;
     margin: 0 auto 4rem auto; }
+
+footer {
+  padding: 1rem 0; }
+  footer .copyright {
+    text-align: center;
+    font-weight: 700;
+    color: #3f3d43; }
+    footer .copyright a {
+      color: #7ac483;
+      text-decoration: none; }
 
 /*# sourceMappingURL=style.css.map */
