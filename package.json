@@ -1,0 +1,26 @@
+{
+  "name": "landingpage-agency",
+  "version": "1.0.0",
+  "description": "Landing Page Agency Design's",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gizellysteffanny/landingPage-Agency.git"
+  },
+  "keywords": [
+    "LandingPage",
+    "Agency"
+  ],
+  "author": "Gizelly Steffanny",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gizellysteffanny/landingPage-Agency/issues"
+  },
+  "homepage": "https://github.com/gizellysteffanny/landingPage-Agency#readme",
+  "dependencies": {
+    "node-sass": "^4.9.2"
+  }
+}

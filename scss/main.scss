@@ -1,22 +1,15 @@
 @import url('https://fonts.googleapis.com/css?family=Varela+Round');
-// Reset
+@import 'config';
+
 *{
     text-decoration: none;
     list-style: none;
     box-sizing: border-box;  
 }
 
-// Variables
-$white: #fff;
-$highlight: #7ac483;
-$grey_background: #f2f1f8;
-$grey_copy: #b9b7c6;
-$dark_grey: #3f3d43;
-
-// Global Styles
 body {
-    font-family: 'Varela Round', sans-serif;
     -wekit-font-smoothing: antialiase;
+    font-family: $font-family;
 }
 
 .wrapper {

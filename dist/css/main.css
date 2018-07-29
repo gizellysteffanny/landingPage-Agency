@@ -5,8 +5,8 @@
   box-sizing: border-box; }
 
 body {
-  font-family: 'Varela Round', sans-serif;
-  -wekit-font-smoothing: antialiase; }
+  -wekit-font-smoothing: antialiase;
+  font-family: "Varela Round", sans-serif; }
 
 .wrapper {
   width: 11140px;
@@ -232,5 +232,3 @@ footer {
     footer .copyright a {
       color: #7ac483;
       text-decoration: none; }
-
-/*# sourceMappingURL=style.css.map */
