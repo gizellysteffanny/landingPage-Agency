@@ -12,28 +12,19 @@ body {
     font-family: $font-family;
 }
 
-.wrapper {
-    width: 11140px;
-    max-width: 90%;
-    margin: 0 auto;
-}
-
+// Buttons
 .button {
-    border: none;
-    outline: none;
-    border-radius: 2rem;
-    padding: .5rem 3rem;
-    font-weight: 700;
-    color: $white;
-    text-align: center;
+    @include button();
 }
-
 .button_highlight{
+    @extend .button;
     background-color: $highlight;
 }
 .button_secondary {
+    @extend .button;
     background: rgba(250, 250, 250, 0.35);
 }
+
 .button_small{
     padding: .3rem 1.5em;
 }
@@ -41,6 +32,13 @@ body {
 .button_large {
     padding: 1rem 4rem;
     font-size: 1.4rem;
+}
+
+
+.wrapper {
+    width: 11140px;
+    max-width: 90%;
+    margin: 0 auto;
 }
 
 .cf::after, .cf::before {

@@ -8,12 +8,7 @@ body {
   -wekit-font-smoothing: antialiase;
   font-family: "Varela Round", sans-serif; }
 
-.wrapper {
-  width: 11140px;
-  max-width: 90%;
-  margin: 0 auto; }
-
-.button {
+.button, .button_highlight, .button_secondary {
   border: none;
   outline: none;
   border-radius: 2rem;
@@ -34,6 +29,11 @@ body {
 .button_large {
   padding: 1rem 4rem;
   font-size: 1.4rem; }
+
+.wrapper {
+  width: 11140px;
+  max-width: 90%;
+  margin: 0 auto; }
 
 .cf::after, .cf::before {
   content: " ";
@@ -81,7 +81,7 @@ body {
     #banner .content .button_wrapper {
       text-align: center;
       margin: 3rem 0; }
-      #banner .content .button_wrapper .button {
+      #banner .content .button_wrapper .button, #banner .content .button_wrapper .button_highlight, #banner .content .button_wrapper .button_secondary {
         margin: 0 .75rem; }
     #banner .content .see_more {
       width: 28px;
@@ -113,7 +113,7 @@ body {
     #services .service p {
       margin: 0 0 2rem 0;
       color: #3f3d43; }
-    #services .service .button {
+    #services .service .button, #services .service .button_highlight, #services .service .button_secondary {
       padding: .5rem 2rem; }
     #services .service:after {
       content: " ";
